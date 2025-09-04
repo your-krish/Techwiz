@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Contact Us</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#properties">Properties</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <br><br>
+    <section class="contact">
+        <form class="form" action="abc.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" placeholder="Your Full Name" required><br><br>
+            
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" placeholder="Your Email Address" required><br><br>
+            
+            <label for="phone">Phone Number:</label>
+            <input type="tel" maxlength="10" name="phone" placeholder="Your Phone Number"><br><br>
+            
+            <label for="interest">Interested to buy?</label>
+            <input type="radio" name="select">Yes <input type="radio" name="select">No <br><br>
+
+
+            <button type="submit" class="submit">Submit</button><br><br>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>Dream Properties</p>
+    </footer>
+</body>
+</html>
